@@ -1,1 +1,15 @@
 /* Add your CSS Below */
+table{
+    width: 50 px;
+    height: 250px;
+    border-collapse: collapse;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+th{
+    background-color: seagreen;
+    color: snow;
+    text-align: left;
+}
