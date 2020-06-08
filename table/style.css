@@ -1,15 +1,22 @@
 /* Add your CSS Below */
 table{
-    width: 50 px;
-    height: 250px;
     border-collapse: collapse;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 60%;
+    text-align: center;
+    border-radius: 35px;
+    padding: 25px;
+
+    }
+tr th {
+    background-color: green;
+    color: white;
 }
-th{
-    background-color: seagreen;
-    color: snow;
-    text-align: left;
+tr:nth-child(1){
+    background-color: lightgrey;
+}
+tr:nth-child(3){
+    background-color: lightgrey;
+}
+tr:nth-child(5){
+    background-color: lightgrey
 }
